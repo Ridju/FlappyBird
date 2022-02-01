@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/main.css" media="screen" />
+    <script type="module" src="scripts/index.mjs" defer ></script>
+    <title>Flappy Bird</title>
+</head>
+<body>  
+    <div class="gridContainer">
+        <div class="header center">
+            <h1>Flappy Bird</h1>
+        </div>
+        <div class="controls">
+            <h2>Controls</h2>
+            <ul>
+                <li>spacbar: start game / jump</li>
+                <li>r: restart the game</li>
+            </ul>
+        </div>
+        <div class="score center">
+            <p>Score: </p>
+            <p id="score"></p>
+        </div>
+        <div  class="gameOver center">
+            <h1 id="gameOver">Game Over</h1>
+        </div>
+        <div class="canvas center">
+            <canvas class="icanvas" id="icanvas"></canvas>
+        </div>
+        
+    </div>             
+</body>
+</html>
