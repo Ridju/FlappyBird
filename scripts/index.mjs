@@ -14,11 +14,11 @@ ctx.fillRect(0, 0, canvas.width, canvas.height);
 const bird = new Bird(100, 100, Date.now());
 const game = new Game(canvas, bird);
 
-function main(){ 
-    game.run();
-    score.innerHTML = game.score;
-    gameOver.hidden = !game.gameOver;
-    requestAnimationFrame(main);
+function main() {
+  game.run();
+  score.innerHTML = game.score;
+  gameOver.hidden = !game.gameOver;
+  requestAnimationFrame(main);
 }
 
 main();
